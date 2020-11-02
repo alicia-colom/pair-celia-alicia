@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 // EJERCICIO 1:
 //
@@ -68,7 +68,7 @@ class App extends Component {
 
 		const appFooter = (
 			<footer className="App-bottom">
-				<a className="App-link" href="https://reactjs.org" target="_blank">
+				<a className="App-link" href="https://reactjs.org" target="_blank" rel='noreferrer'>
 					Leer más...
 				</a>
 				<small className="App-small">
