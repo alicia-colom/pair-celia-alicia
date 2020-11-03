@@ -7,13 +7,13 @@ class CatList extends React.Component {
 			<section className="section-cats">
 				<h1>All Cats Are Beautiful</h1>
 				<ul className="section-cats_list">
-					<li>
+					<li id="1">
 						<RandomCat />
 					</li>
-					<li>
+					<li id="2">
 						<RandomCat />
 					</li>
-					<li>
+					<li id="3">
 						<RandomCat />
 					</li>
 				</ul>
