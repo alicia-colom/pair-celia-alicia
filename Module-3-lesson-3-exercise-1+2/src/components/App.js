@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Card from '../components/Card';
 
 
-
 // EJERCICIO 1: 
 //
 class App extends Component {
