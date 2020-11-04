@@ -9,7 +9,7 @@ import React from 'react';
 // }
 
 // COMPONENTE FUNCIONAL:  (aquí props es un argumento de tipo objeto)
-//
+
 // const Greetings = props => {
 //   return <h1>Hello, {props.name}!</h1>;
 // };
