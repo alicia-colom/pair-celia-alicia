@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MediaList from '../components/MediaList';
+import MediaList from './MediaList';
+// import Card from './Card';
 
 // EJERCICIO 1:
 //
@@ -8,6 +9,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<MediaList />
+				{/* <Card /> */}
 			</div>
 		);
 	}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Card from '../components/Card';
+import Card from './Card';
 
 // EJERCICIO 5:
 //
@@ -13,17 +13,18 @@ class MediaList extends Component {
 					<li id="1">1
 						<Card />
 					</li>
-					<li id="2">2
+					{/* <li id="2">
 						<Card />
 					</li>
-					<li id="3">3
+					<li id="3">
 						<Card />
-					</li>
+					</li> */}
 				</ul>
 			</section>
 		);
 	}
 }
+
 
 const componentToRender = (
 	<Card
@@ -39,6 +40,7 @@ const componentToRender = (
 	/>
 );
 ReactDOM.render(componentToRender, document.getElementById('root'));
+
 
 
 export default MediaList;
